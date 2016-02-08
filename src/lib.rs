@@ -1,6 +1,6 @@
 use std::fmt;
 
-trait Yolo<T> {
+pub trait Yolo<T> {
     fn yolo(self) -> T;
 }
 
