@@ -1,16 +1,13 @@
 [package]
 name = "yolo"
 version = "0.1.0"
-authors = ["timglabisch <tim@ainfach.de>"]
-
-[dependencies]
-
+authors = ["timglabisch <cargo@tim.ainfach.de>"]
 description = "Rusts .yolo()"
-
-# These URLs point to more information about the repository
 documentation = "https://github.com/timglabisch/rust-yolo"
 homepage = "https://github.com/timglabisch/rust-yolo"
 repository = "https://github.com/timglabisch/rust_yolo.git"
 readme = "README.md"
 keywords = ["yolo"]
 license = "WTFPL"
+
+[dependencies]
