@@ -1,6 +1,6 @@
 [package]
 name = "yolo"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["timglabisch <cargo@tim.ainfach.de>"]
 description = "Rusts .yolo()"
 documentation = "https://github.com/timglabisch/rust-yolo"
