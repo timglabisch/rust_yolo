@@ -1,10 +1,10 @@
 [package]
 name = "yolo"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["timglabisch <cargo@tim.ainfach.de>"]
 description = "Rusts .yolo()"
-documentation = "https://github.com/timglabisch/rust-yolo"
-homepage = "https://github.com/timglabisch/rust-yolo"
+documentation = "https://github.com/timglabisch/rust_yolo"
+homepage = "https://github.com/timglabisch/rust_yolo"
 repository = "https://github.com/timglabisch/rust_yolo.git"
 readme = "README.md"
 keywords = ["yolo"]
