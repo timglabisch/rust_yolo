@@ -20,3 +20,15 @@ fn main() {
 ```
 
 installation
+
+use
+
+```
+[dependencies]
+yolo = "*"
+```
+
+make sure you DONT'T pin it to a version -> YOLO!.
+
+# special thanks
+special thanks to (matthiasendler)[https://github.com/mre] who recognized (how important)[https://twitter.com/matthiasendler/status/696769903022497792] this crate is 
