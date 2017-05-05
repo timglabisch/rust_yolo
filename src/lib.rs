@@ -10,18 +10,22 @@ impl<T> Yolo<T> for Option<T> {
     }
 }
 
-impl<T, E> Yolo<T> for Result<T, E> where E : fmt::Debug {
+impl<T, E> Yolo<T> for Result<T, E> where E: fmt::Debug {
     fn yolo(self) -> T {
         self.unwrap()
     }
 }
 
-fn get_result(v : i32) -> Result<i32, ()> {
-    Ok(v)
-}
+#[cfg(test)]
+mod tests {
+    fn get_result(v: i32) -> Result<i32, ()> {
+        Ok(v)
+    }
 
-#[test]
-fn it_works() {
-    assert_eq!(Some(123).yolo(), 123);
-    assert_eq!(get_result(123).yolo(), 123)
+    #[test]
+    fn it_works() {
+        assert_eq!(Some(123).yolo(), 123);
+        assert_eq!(get_result(123).yolo(), 123)
+    }
 }
+    
